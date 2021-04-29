@@ -60,7 +60,6 @@
                     <loc:CircularProgress
                          Height="100" Width="100" Margin="5"
                          CurrentCount="{Binding RecordCount}" 
-                         Fill="{Binding TestBrush}"
                          HorizontalAlignment="Center"/>
                 </Grid>
                 <StackPanel Margin="20">
