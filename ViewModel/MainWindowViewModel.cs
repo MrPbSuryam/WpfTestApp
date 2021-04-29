@@ -37,19 +37,6 @@ namespace WpfTestApp.ViewModel
             }
         }
 
-        private Brush testBrush;
-        public Brush TestBrush
-        {
-            get { return testBrush; }
-            set
-            {
-                if (testBrush != value)
-                {
-                    SetPropertry(ref this.testBrush, value);
-                }
-            }
-        }
-
         private int totalRecord = 0;
         public int TotalRecord
         {
